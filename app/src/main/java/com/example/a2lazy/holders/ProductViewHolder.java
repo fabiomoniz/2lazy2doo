@@ -77,11 +77,11 @@ public class ProductViewHolder extends RecyclerView.ViewHolder{
                                     for(Map.Entry<String,Object> entry : map.entrySet()){
                                         String sharedUserEmail = entry.getKey();
 
-                                        if(!sharedUserEmail.equals(userEmail)){
+                                        //if(!sharedUserEmail.equals(userEmail)){
                                             rootRef.collection("notifications").document(sharedUserEmail)
                                                     .collection("userNotifications").document()
                                                     .set(notificationModel);
-                                        }
+                                        //}
                                     }
 
                                 }

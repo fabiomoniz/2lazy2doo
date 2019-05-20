@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 admin.initializeApp(functions.config().firebase);
@@ -20,7 +22,7 @@ exports.sendNotification = functions.firestore.document("notifications/{userEmai
 
 			const notificationContent = {
 				notification: {
-					title: fromUserName + " is shopping",
+					title: fromUserName + " is Completed",
 					body: notificationMessage,
 					icon: "default"
 				}
@@ -30,11 +32,6 @@ exports.sendNotification = functions.firestore.document("notifications/{userEmai
 				console.log("Notification sent!");
 				//admin.firestore().collection("notifications").doc(userEmail).collection("userNotifications").doc(notificationId).delete();
 			});
-		});
-		return 1; // IT SHOULD RETURN NON-NULL VALUE
-		}).catch(error => {
-    	console.error(error);
-    	res.error(500);
 		});
 	});
 });
