@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "621749498689",
+    "firebase_url": "https://lazy-c15c7.firebaseio.com",
+    "project_id": "lazy-c15c7",
+    "storage_bucket": "lazy-c15c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621749498689:android:7f1f0512b0be03b1",
+        "android_client_info": {
+          "package_name": "com.example.a2lazy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621749498689-0cg2vtk758n03033jl2orcl1vfovvm99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a2lazy",
+            "certificate_hash": "cb5131c0f377a5f9867e0c4af3111ba989070dfe"
+          }
+        },
+        {
+          "client_id": "621749498689-qmjkn7pvmtd5g3p06pdn9ad6c58l9btj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDev_Z3N8VdlyZkhOGrmIHVJ33QNur55g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621749498689-qmjkn7pvmtd5g3p06pdn9ad6c58l9btj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
