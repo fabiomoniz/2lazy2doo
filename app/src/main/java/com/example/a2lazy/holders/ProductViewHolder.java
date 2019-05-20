@@ -71,17 +71,17 @@ public class ProductViewHolder extends RecyclerView.ViewHolder{
                                 @Override
                                 public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                                     Map<String, Object> map = (Map<String, Object>) task.getResult().get("users");
-                                    String notificationMessege = userName + "just Completed" + productName + " from" + taskListName + "´s list!";
-                                    NotificationModel notificationModel = new NotificationModel(notificationMessege,userEmail);
+                                    String notificationMessage = userName + " just Completed" + productName + " from " + taskListName + "´s list!";
+                                    NotificationModel notificationModel = new NotificationModel(notificationMessage,userEmail);
 
                                     for(Map.Entry<String,Object> entry : map.entrySet()){
                                         String sharedUserEmail = entry.getKey();
 
-                                        //if(!sharedUserEmail.equals(userEmail)){
+                                        if(!sharedUserEmail.equals(userEmail)){
                                             rootRef.collection("notifications").document(sharedUserEmail)
                                                     .collection("userNotifications").document()
                                                     .set(notificationModel);
-                                        //}
+                                        }
                                     }
 
                                 }

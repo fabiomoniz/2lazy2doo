@@ -2,13 +2,13 @@ package com.example.a2lazy.models;
 
 public class NotificationModel {
 
-    private String notificationMessege, senderUserEmail;
+    private String notificationMessage, senderUserEmail;
 
     public NotificationModel() {
     }
 
-    public String getNotificationMessege() {
-        return notificationMessege;
+    public String getNotificationMessage() {
+        return notificationMessage;
     }
 
     public String getSenderUserEmail() {
@@ -16,7 +16,7 @@ public class NotificationModel {
     }
 
     public NotificationModel(String notificationMessege, String senderUserEmail) {
-        this.notificationMessege = notificationMessege;
+        this.notificationMessage = notificationMessege;
         this.senderUserEmail = senderUserEmail;
 
 

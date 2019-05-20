@@ -2,11 +2,11 @@
 
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
-admin.initializeApp(functions.config().firebase);
+admin.initializeApp();
 
-exports.sendNotification = functions.firestore.document("notifications/{userEmail}/userNotifications/{notificationId}").onWrite(event => {
-	const userEmail = event.params.userEmail;
-	const notificationId = event.params.notificationId;
+exports.sendNotification = functions.firestore.document("notifications/{userEmail}/userNotifications/{notificationId}").onWrite((change, context) => {
+	const userEmail = change.after.userEmail;
+	const notificationId = change.after.notificationId;
 
 	return admin.firestore().collection("notifications").doc(userEmail).collection("userNotifications").doc(notificationId).get().then(queryResult => {
 		const senderUserEmail = queryResult.data().senderUserEmail;
@@ -30,7 +30,7 @@ exports.sendNotification = functions.firestore.document("notifications/{userEmai
 
 			return admin.messaging().sendToDevice(tokenId, notificationContent).then(result => {
 				console.log("Notification sent!");
-				//admin.firestore().collection("notifications").doc(userEmail).collection("userNotifications").doc(notificationId).delete();
+				admin.firestore().collection("notifications").doc(userEmail).collection("userNotifications").doc(notificationId).delete();
 			});
 		});
 	});
