@@ -5,16 +5,17 @@ import java.util.Date;
 import com.google.firebase.firestore.ServerTimestamp;
 
 public class TaskListModel implements Serializable {
-    private String taskListId, taskListName, createdBy;
+    private String taskListId, taskListName, createdBy, imageUrl;
     @ServerTimestamp
     private Date date;
 
     public TaskListModel() {}
 
-    public TaskListModel(String shoppingListId, String shoppingListName, String createdBy) {
+    public TaskListModel(String shoppingListId, String shoppingListName, String createdBy, String imageUrl) {
         this.taskListId = shoppingListId;
         this.taskListName = shoppingListName;
         this.createdBy = createdBy;
+        this.imageUrl = imageUrl;
     }
 
     public String getTaskListId() {
@@ -31,5 +32,13 @@ public class TaskListModel implements Serializable {
 
     public Date getDate() {
         return date;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }

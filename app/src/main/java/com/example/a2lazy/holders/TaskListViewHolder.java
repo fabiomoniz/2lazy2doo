@@ -1,40 +1,56 @@
 package com.example.a2lazy.holders;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
-import android.text.InputType;
 import android.view.View;
-import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.support.v4.app.FragmentManager;
+import android.widget.Toast;
 
 import com.example.a2lazy.R;
 import com.example.a2lazy.TaskListActivity;
+import com.example.a2lazy.fragments.ImageFragment;
+import com.example.a2lazy.fragments.MenuFragment;
 import com.example.a2lazy.models.TaskListModel;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.firestore.FirebaseFirestore;
+import com.squareup.picasso.Picasso;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.Locale;
-import java.util.Map;
 
 public class TaskListViewHolder extends RecyclerView.ViewHolder {
 
     private TextView taskListNameTextView, createdByTextView, dateTextView;
+    private ImageView imageV;
 
-    public TaskListViewHolder(@NonNull View itemView) {
+    public TaskListViewHolder(@NonNull final View itemView) {
         super(itemView);
         taskListNameTextView = itemView.findViewById(R.id.task_list_name_text_view);
         createdByTextView = itemView.findViewById(R.id.created_by_text_view);
         dateTextView = itemView.findViewById(R.id.date_text_view);
+        imageV = itemView.findViewById(R.id.image_view);
+
+        imageV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(itemView.getContext(), "clicked" , Toast.LENGTH_LONG).show();
+
+
+
+                FragmentManager fm = ((AppCompatActivity) itemView.getContext()).getSupportFragmentManager();
+
+                ImageFragment imageFragment = new ImageFragment();
+                imageFragment.show(fm, "menu alarm");
+            }
+        });
     }
 
     public void setTaskList(final Context context, final String userEmail, final TaskListModel taskModel) {
@@ -45,6 +61,16 @@ public class TaskListViewHolder extends RecyclerView.ViewHolder {
 
         String createdBy = "Created by: " + taskModel.getCreatedBy();
         createdByTextView.setText(createdBy);
+
+        if(taskModel.getImageUrl() != ""){
+            String imageUrl = taskModel.getImageUrl();
+            Picasso.with(context)
+                    .load(imageUrl)
+                    .resize(50, 50)
+                    .centerCrop()
+                    .into(imageV);
+        }
+
 
         Date date = taskModel.getDate();
         if (date != null) {
@@ -65,67 +91,17 @@ public class TaskListViewHolder extends RecyclerView.ViewHolder {
         itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                builder.setTitle("Edit Shopping List Name");
 
-                final EditText editText = new EditText(context);
-                editText.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_CAP_WORDS);
-                editText.setText(taskListName);
-                editText.setSelection(editText.getText().length());
-                editText.setHint("Type a name");
-                editText.setHintTextColor(Color.GRAY);
-                builder.setView(editText);
+                FragmentManager fm = ((AppCompatActivity) context).getSupportFragmentManager();
 
-                final FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
-                final Map<String, Object> map = new HashMap<>();
-
-                builder.setPositiveButton("Update", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        String newTaskListName = editText.getText().toString().trim();
-                        map.put("taskListName", newTaskListName);
-                        rootRef.collection("taskLists").document(userEmail).collection("userTaskLists").document(taskListId).update(map);
-
-                    }
-                });
-
-                builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.dismiss();
-                    }
-                });
-
-
-                /**BASTIAN!!! GOOD NOW THAT I GOT YOUR ATTENTION*/
-
-
-
-                  /**THEN !!!! uncomment this and deleted the top one*/
-//                builder.setNegativeButton("Delete", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialogInterface, int i) {
-                      /** create a reference to the tasklistid in database  called "tasklistIdRef"*/
-                      /**then over here create a new query (i think)the path must associated with all the products  with this task and then delete it, its 6 am and i cant sleep or think proporlly i cant even spell ... */
-                      /**rootRef.collection("taskLists").document(userEmail).collection("userTaskLists").document(taskListId).update(map); maybe like this*/
-                      /**i cant think straight anymore*/
-//
-//                        taskListIdRef.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
-//                            @Override
-//                            public void onSuccess(Void aVoid) {
-//                                Snackbar.make(taskListViewFragment, "Task Deleted!", Snackbar.LENGTH_LONG).show();
-//                                }
-//                        });
-//                    }
-//                });
-
-                AlertDialog alertDialog = builder.create();
-                alertDialog.show();
+                MenuFragment menuFragment = new MenuFragment();
+                menuFragment.userEmail = userEmail;
+                menuFragment.taskListId = taskListId;
+                menuFragment.taskListName = taskListName;
+                menuFragment.show(fm, "menu dialog");
 
                 return true;
             }
         });
     }
-
-
 }

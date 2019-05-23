@@ -127,7 +127,7 @@ public class TaskListFragment extends Fragment {
                     public ProductViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
                         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_product, parent, false);
                         return new ProductViewHolder(view);
-                    }
+                }
 
                     @Override
                     public void onDataChanged() {

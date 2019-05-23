@@ -5,9 +5,12 @@ const admin = require('firebase-admin');
 admin.initializeApp();
 
 exports.sendNotification = functions.firestore.document("notifications/{userEmail}/userNotifications/{notificationId}").onWrite((change, context) => {
-	const userEmail = change.after.userEmail;
-	const notificationId = change.after.notificationId;
+	const userEmail = change.after.data.userEmail;
+	const notificationId = change.after.id;
 
+	
+	console.log(userEmail);
+	console.log(notificationId);
 	return admin.firestore().collection("notifications").doc(userEmail).collection("userNotifications").doc(notificationId).get().then(queryResult => {
 		const senderUserEmail = queryResult.data().senderUserEmail;
 		const notificationMessage = queryResult.data().notificationMessage;
@@ -19,6 +22,7 @@ exports.sendNotification = functions.firestore.document("notifications/{userEmai
 			const fromUserName = result[0].data().userName;
 			const toUserName = result[1].data().userName;
 			const tokenId = result[1].data().tokenId;
+
 
 			const notificationContent = {
 				notification: {

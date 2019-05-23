@@ -2,7 +2,6 @@ package com.example.a2lazy.holders;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -14,7 +13,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.a2lazy.R;
-import com.example.a2lazy.TaskListActivity;
 import com.example.a2lazy.models.NotificationModel;
 import com.example.a2lazy.models.ProductModel;
 import com.example.a2lazy.models.TaskListModel;
@@ -24,14 +22,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
-import java.util.concurrent.ScheduledExecutorService;
 
 public class ProductViewHolder extends RecyclerView.ViewHolder{
     private TextView productNameTextView;
