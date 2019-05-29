@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.Menu
                         dialogInterface.dismiss();
                     }
                 });
-                
+
                 AlertDialog alertDialog = builder.create();
                 alertDialog.show();
             }
