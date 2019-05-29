@@ -11,13 +11,13 @@ import android.view.View;
 import com.example.a2lazy.holders.TaskListViewHolder;
 import com.example.a2lazy.models.TaskListModel;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class SwipeToDeleteCallback extends ItemTouchHelper.SimpleCallback {
 
     private FirestoreRecyclerAdapter<TaskListModel, TaskListViewHolder> mAdapter;
     private Drawable icon;
     private final ColorDrawable background;
-    private swipeListener listener;
     private String UserEmail;
 
     public SwipeToDeleteCallback(String userEmail, FirestoreRecyclerAdapter<TaskListModel, TaskListViewHolder> adapter) {
@@ -31,7 +31,9 @@ public class SwipeToDeleteCallback extends ItemTouchHelper.SimpleCallback {
     public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
         int position = viewHolder.getAdapterPosition();
         String taskListID = mAdapter.getItem(position).getTaskListId(); // returns null and i need to get tasklistid another way
-        listener.deleteItem(UserEmail, taskListID);
+        FirebaseFirestore rootRef = FirebaseFirestore.getInstance();
+        rootRef.collection("products").document(taskListID).delete();
+        rootRef.collection("taskLists").document(UserEmail).collection("userTaskLists").document(taskListID).delete();
     }
 
     @Override
@@ -57,9 +59,5 @@ public class SwipeToDeleteCallback extends ItemTouchHelper.SimpleCallback {
             background.setBounds(0, 0, 0, 0);
         }
         background.draw(c);
-    }
-
-    public interface swipeListener {
-        void deleteItem(String userEmail , String TaskListId);
     }
 }

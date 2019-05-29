@@ -6,22 +6,12 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbdba6ba-ba38-4e4a-b004-9778701d8448" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_5_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/AlarmManager/MyAlarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/Variables/Variables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/AlarmFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/ImageFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/helpers/SwipeToDeleteCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttonshape.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_alarm_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_imageview_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/customedit_dialog_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_18_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_18_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -33,57 +23,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_16_0_5_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_interop_16_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_16_0_4_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_collection_16_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_firestore_17_1_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_16_0_4_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_protolite_well_known_types_16_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_20_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp_okhttp_2_7_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_context_1_12_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_core_1_12_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_okhttp_1_12_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_protobuf_lite_1_12_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_stub_1_12_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opencensus_opencensus_api_0_11_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opencensus_opencensus_contrib_grpc_metrics_0_11_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/LoginActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/TaskListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/TaskListFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/ProductViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/ProductViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/TaskListViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/TaskListViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/TaskListModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/TaskListModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_task_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_task_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions-firecast/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions-firecast/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/AlarmFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/AlarmFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/ImageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/ImageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/helpers/SwipeToDeleteCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/helpers/SwipeToDeleteCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/customedit_dialog_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/customedit_dialog_fragment.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,52 +49,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/TaskListViewHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="1054">
+              <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1314#1486#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="e#1844#2164#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2208#2696#0" expanded="true" />
-                <element signature="e#2695#2696#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/ImageFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/ProductViewHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_imageview_fragment.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
+            <state relative-caret-position="969">
+              <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2023#2518#0" expanded="true" />
-                <element signature="e#2517#2518#0" expanded="true" />
+                <element signature="e#2099#4187#0" expanded="true" />
+                <element signature="e#2490#4161#0" expanded="true" />
+                <element signature="e#2843#4092#0" expanded="true" />
+                <element signature="e#4091#4092#0" expanded="true" />
+                <element signature="e#4160#4161#0" expanded="true" />
+                <element signature="e#4186#4187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/TaskListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+            <state relative-caret-position="558">
+              <caret line="128" column="39" lean-forward="true" selection-start-line="128" selection-start-column="39" selection-end-line="128" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,10 +92,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/HistoryFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="57" column="100" lean-forward="true" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1449#1641#0" expanded="true" />
+                <element signature="e#1640#1641#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/ImageFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,17 +117,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="160" column="52" selection-start-line="160" selection-start-column="52" selection-end-line="160" selection-end-column="52" />
+            <state relative-caret-position="2023">
+              <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6055#6399#0" expanded="true" />
-                <element signature="e#6398#6399#0" expanded="true" />
-                <element signature="e#6455#6697#0" expanded="true" />
-                <element signature="e#6696#6697#0" expanded="true" />
+                <element signature="e#6112#6456#0" expanded="true" />
+                <element signature="e#6455#6456#0" expanded="true" />
+                <element signature="e#6512#6754#0" expanded="true" />
+                <element signature="e#6753#6754#0" expanded="true" />
                 <element signature="method#addTaskList#0;class#MainActivity#0" />
                 <element signature="method#onStart#0;class#MainActivity#0" />
                 <element signature="method#onStop#0;class#MainActivity#0" />
@@ -196,7 +138,10 @@
                 <element signature="method#openCamera#0;class#MainActivity#0" />
                 <element signature="method#getOutputMediaFile#0;class#MainActivity#0" />
                 <element signature="method#onActivityResult#0;class#MainActivity#0" />
-                <element signature="method#uploadPicture#0;class#MainActivity#0" />
+                <element signature="e#14495#14817#0" expanded="true" />
+                <element signature="e#14816#14817#0" expanded="true" />
+                <element signature="e#14841#15356#0" expanded="true" />
+                <element signature="e#15355#15356#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,13 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/AlarmFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1203#1961#0" expanded="true" />
-                <element signature="e#1960#1961#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-221">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -242,6 +182,7 @@
       <find />
       <find>TaskListView</find>
       <find>viewHolder</find>
+      <find>layout</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,7 +193,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/UserModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/task_list_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
@@ -273,18 +213,19 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/Variables/Variables.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/TaskListModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_task_list.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/customedit_dialog_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/helpers/SwipeToDeleteCallback.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_alarm_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/AlarmFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/AlarmManager/MyAlarm.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/ImageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_imageview_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/TaskListViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/AlarmManager/MyAlarm.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/customedit_dialog_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/helpers/SwipeToDeleteCallback.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/ImageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/AlarmFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -300,8 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -330,7 +270,42 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="a2lazy" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="AlarmManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2lazy" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="a2lazy" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2lazy" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="a2lazy" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2lazy" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="a2lazy" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="holders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2lazy" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="a2lazy" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2lazy" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="a2lazy" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Variables" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2lazy" type="1abcf292:AndroidViewProjectNode" />
@@ -351,20 +326,23 @@
             </path>
             <path>
               <item name="2lazy" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="Pixel_2_XL_API_28" />
+    <property name="device.picker.selection" value="X5BDU19301003786" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ShoppingListApp-master/ShoppingListApp-master" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -478,16 +456,17 @@
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Resources Explorer" order="5" weight="0.32995737" />
       <window_info id="Capture Tool" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.114072494" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.14872068" />
       <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
+      <window_info id="simpleUML" order="9" weight="0.98400855" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.3261105" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49733475" weight="0.32936078" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33152762" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.33152762" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.36403033" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50479746" side_tool="true" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49520257" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Run" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -500,63 +479,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/task_list_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_task_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#1113#1153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_product.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/ProductModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/UserModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -564,26 +486,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_task_list.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6bed9d596becef8768065432039fc85/jars/classes.jar!/android/support/v4/app/DialogFragment.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -592,45 +504,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/NotificationModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions-firecast/functions/node_modules/core-js/library/modules/es6.function.name.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/buttonshape.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/DialogFragment.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -662,61 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/363a4f427f3f7bb161d120835786f93c/jars/classes.jar!/com/google/android/gms/tasks/zzj.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/TaskListModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb6f779ec579a2ad3eb7bd2a82370556/jars/classes.jar!/android/support/v7/widget/RecyclerView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="6011" selection-start-line="6011" selection-end-line="6011" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_task_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/Variables/Variables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -733,46 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_dialog_layout.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/customedit_dialog_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="89" column="65" selection-start-line="89" selection-start-column="65" selection-end-line="89" selection-end-column="65" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/ProductViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-872">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2099#4187#0" expanded="true" />
-            <element signature="e#2490#4161#0" expanded="true" />
-            <element signature="e#2843#4092#0" expanded="true" />
-            <element signature="e#4091#4092#0" expanded="true" />
-            <element signature="e#4160#4161#0" expanded="true" />
-            <element signature="e#4186#4187#0" expanded="true" />
-            <element signature="e#4231#6194#0" expanded="true" />
-            <element signature="e#4958#5417#0" expanded="true" />
-            <element signature="e#5416#5417#0" expanded="true" />
-            <element signature="e#5473#6041#0" expanded="true" />
-            <element signature="e#5692#5999#0" expanded="true" />
-            <element signature="e#5998#5999#0" expanded="true" />
-            <element signature="e#6040#6041#0" expanded="true" />
-            <element signature="e#6193#6194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_dialog_layout.xml" />
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -780,39 +582,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/helpers/SwipeToDeleteCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_alarm_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/AlarmManager/MyAlarm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,53 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/HistoryFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/AlarmFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1203#1961#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="160" column="52" selection-start-line="160" selection-start-column="52" selection-end-line="160" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6055#6399#0" expanded="true" />
-            <element signature="e#6398#6399#0" expanded="true" />
-            <element signature="e#6455#6697#0" expanded="true" />
-            <element signature="e#6696#6697#0" expanded="true" />
-            <element signature="method#addTaskList#0;class#MainActivity#0" />
-            <element signature="method#onStart#0;class#MainActivity#0" />
-            <element signature="method#onStop#0;class#MainActivity#0" />
-            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
-            <element signature="method#signOut#0;class#MainActivity#0" />
-            <element signature="method#editTask#0;class#MainActivity#0" />
-            <element signature="method#openCamera#0;class#MainActivity#0" />
-            <element signature="method#getOutputMediaFile#0;class#MainActivity#0" />
-            <element signature="method#onActivityResult#0;class#MainActivity#0" />
-            <element signature="method#uploadPicture#0;class#MainActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6bed9d596becef8768065432039fc85/jars/classes.jar!/android/support/v4/app/Fragment.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -888,58 +615,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/TaskListFragment.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/363a4f427f3f7bb161d120835786f93c/jars/classes.jar!/com/google/android/gms/tasks/zzj.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="129" column="17" selection-start-line="129" selection-start-column="17" selection-end-line="129" selection-end-column="17" />
+        <state relative-caret-position="289">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/NotificationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2023#2518#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/java/lang/Boolean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_imageview_fragment.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e5615d7878f2ed4b590674f45e1fd7a/res/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9c59b3657fd706af2d82d902cfad9191/jars/classes.jar!/com/google/android/gms/auth/api/Auth.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/ProductModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_task_list.xml">
       <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_task_list.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/models/TaskListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1840#1881#0" expanded="true" />
+            <element signature="e#2083#2359#0" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/customedit_dialog_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/buttonshape.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/AlarmManager/MyAlarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/helpers/SwipeToDeleteCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/Variables/Variables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/HistoryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_alarm_fragment.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/ImageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="340">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/TaskListViewHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="1054">
+          <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1314#1486#0" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1844#2164#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2208#2696#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/TaskListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="128" column="39" lean-forward="true" selection-start-line="128" selection-start-column="39" selection-end-line="128" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/holders/ProductViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2099#4187#0" expanded="true" />
+            <element signature="e#2490#4161#0" expanded="true" />
+            <element signature="e#2843#4092#0" expanded="true" />
+            <element signature="e#4091#4092#0" expanded="true" />
+            <element signature="e#4160#4161#0" expanded="true" />
+            <element signature="e#4186#4187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/AlarmFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/fragments/MenuFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="57" column="100" lean-forward="true" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1449#1641#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/a2lazy/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6112#6456#0" expanded="true" />
+            <element signature="e#6455#6456#0" expanded="true" />
+            <element signature="e#6512#6754#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="method#addTaskList#0;class#MainActivity#0" />
+            <element signature="method#onStart#0;class#MainActivity#0" />
+            <element signature="method#onStop#0;class#MainActivity#0" />
+            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
+            <element signature="method#signOut#0;class#MainActivity#0" />
+            <element signature="method#editTask#0;class#MainActivity#0" />
+            <element signature="method#openCamera#0;class#MainActivity#0" />
+            <element signature="method#getOutputMediaFile#0;class#MainActivity#0" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" />
+            <element signature="e#14495#14817#0" expanded="true" />
+            <element signature="e#14816#14817#0" expanded="true" />
+            <element signature="e#14841#15356#0" expanded="true" />
+            <element signature="e#15355#15356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

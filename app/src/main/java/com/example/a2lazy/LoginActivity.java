@@ -27,6 +27,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 import com.google.android.gms.common.SignInButton;
+import com.google.firebase.iid.InstanceIdResult;
 
 public class LoginActivity extends AppCompatActivity {
     private static final int RC_SIGN_IN = 123;
@@ -105,17 +106,25 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
-                    String userEmail = googleSignInAccount.getEmail();
-                    String userName = googleSignInAccount.getDisplayName();
-                    String tokenId = FirebaseInstanceId.getInstance().getToken();
-
-                    UserModel userModel = new UserModel(userEmail, userName, tokenId);
-                    rootRef.collection("users").document(userEmail).set(userModel).addOnSuccessListener(new OnSuccessListener<Void>() {
+                    final String userEmail = googleSignInAccount.getEmail();
+                    final String userName = googleSignInAccount.getDisplayName();
+                    //String tokenId = FirebaseInstanceId.getInstance().getToken();
+                    FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener( new OnSuccessListener<InstanceIdResult>() {
                         @Override
-                        public void onSuccess(Void aVoid) {
-                            Log.d("TAG", "User successfully created!");
+                        public void onSuccess(InstanceIdResult instanceIdResult) {
+                            String tokenId = instanceIdResult.getToken();
+
+                            UserModel userModel = new UserModel(userEmail, userName, tokenId);
+                            rootRef.collection("users").document(userEmail).set(userModel).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                @Override
+                                public void onSuccess(Void aVoid) {
+                                    Log.d("TAG", "User successfully created!");
+                                }
+                            });
                         }
                     });
+
+
                 } else {
                     Log.d("TAG", "Failed with: " + task.getException());
                 }

@@ -20,7 +20,6 @@ public class MenuFragment extends AppCompatDialogFragment {
     private MenuFragmentListener listener;
     private Button editButton;
     private Button cameraButton;
-    private Button delete;
     private Button alarm;
     public String taskListId,taskListName,userEmail;
 
@@ -48,15 +47,6 @@ public class MenuFragment extends AppCompatDialogFragment {
             @Override
             public void onClick(View v) {
                 listener.openCamera(taskListId);
-                dismiss();
-            }
-        });
-
-        delete = view.findViewById(R.id.delete_button);
-        delete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                listener.delete(userEmail,taskListId);
                 dismiss();
             }
         });
@@ -91,6 +81,5 @@ public class MenuFragment extends AppCompatDialogFragment {
     public interface MenuFragmentListener {
         void editTask(String taskListId, String taskListName);
         void openCamera(String taskListId);
-        void delete(String userEmail , String TaskListId);
     }
 }

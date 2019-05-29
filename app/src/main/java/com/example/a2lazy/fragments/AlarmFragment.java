@@ -5,7 +5,6 @@ import android.app.Dialog;
 import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatDialogFragment;
@@ -44,16 +43,16 @@ public class AlarmFragment extends AppCompatDialogFragment {
                 .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                            Calendar calendar = Calendar.getInstance();
-                            calendar.set(
-                                    calendar.get(Calendar.YEAR),
-                                    calendar.get(Calendar.MONTH),
-                                    calendar.get(Calendar.DAY_OF_MONTH),
-                                    timePicker.getHour(),
-                                    timePicker.getMinute(),
-                                    0
-                            );
-                            setAlarm(calendar.getTimeInMillis());
+                        Calendar calendar = Calendar.getInstance();
+                        calendar.set(
+                                calendar.get(Calendar.YEAR),
+                                calendar.get(Calendar.MONTH),
+                                calendar.get(Calendar.DAY_OF_MONTH),
+                                timePicker.getHour(),
+                                timePicker.getMinute(),
+                                0
+                        );
+                        setAlarm(calendar.getTimeInMillis());
 
                     }
                 });
@@ -61,14 +60,14 @@ public class AlarmFragment extends AppCompatDialogFragment {
         return builder.create();
     }
 
-    private void setAlarm(long timeInMillis){
+    private void setAlarm(long timeInMillis) {
         AlarmManager am = (AlarmManager) getContext().getSystemService(getContext().ALARM_SERVICE);
         Intent intent = new Intent(getActivity(), MyAlarm.class);
 
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(getActivity(),0, intent, 0);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(getActivity(), 0, intent, 0);
 
         am.setRepeating(AlarmManager.RTC_WAKEUP, timeInMillis, AlarmManager.INTERVAL_DAY, pendingIntent);
 
-        Toast.makeText(getActivity(), "Alarm has been set" , Toast.LENGTH_LONG).show();
+        Toast.makeText(getActivity(), "Alarm has been set", Toast.LENGTH_LONG).show();
     }
 }

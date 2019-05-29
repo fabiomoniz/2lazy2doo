@@ -72,7 +72,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MainActivity extends AppCompatActivity implements MenuFragment.MenuFragmentListener, SwipeToDeleteCallback.swipeListener {
+public class MainActivity extends AppCompatActivity implements MenuFragment.MenuFragmentListener {
 
     private String userEmail, userName, taskTitle, taskListId;
     private GoogleApiClient googleApiClient;
@@ -164,8 +164,7 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.Menu
                         dialogInterface.dismiss();
                     }
                 });
-
-
+                
                 AlertDialog alertDialog = builder.create();
                 alertDialog.show();
             }
@@ -368,7 +367,7 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.Menu
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         // Handle successful uploads
                         Log.d(variables.LOGTAG, "onSuccess: You just uploaded a picture to firestore");
-                        Toast.makeText(MainActivity.this, "Uploading Finished... " , Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "Uploading almost Finished... It may take a Moment " , Toast.LENGTH_LONG).show();
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
@@ -463,18 +462,5 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.Menu
         recyclerView.setAdapter(firestoreRecyclerAdapter);
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new SwipeToDeleteCallback(userEmail,firestoreRecyclerAdapter));
         itemTouchHelper.attachToRecyclerView(recyclerView);
-    }
-
-    @Override
-    public void delete(String userEmails , String taskListIds) {
-        rootRef.collection("products").document(taskListIds).delete();
-        rootRef.collection("taskLists").document(userEmails).collection("userTaskLists").document(taskListIds).delete();
-
-    }
-
-    @Override
-    public void deleteItem(String userEmails, String taskListIds) {
-        rootRef.collection("products").document(taskListIds).delete();
-        rootRef.collection("taskLists").document(userEmails).collection("userTaskLists").document(taskListIds).delete();
     }
 }

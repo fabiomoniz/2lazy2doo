@@ -22,7 +22,6 @@ public class ImageFragment extends AppCompatDialogFragment {
 
 
 
-
         return builder.create();
     }
 }
