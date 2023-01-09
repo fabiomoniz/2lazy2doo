@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "config.json": "0.0.4",
-    "firebase-admin": "^7.3.0",
-    "firebase-functions": "^2.3.1"
+    "firebase-admin": "^11.4.1",
+    "firebase-functions": "^4.1.1"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
